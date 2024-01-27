@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Times, 'Times New Roman', serif;
+
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+
+
+
+}
+
+.quizWrapper{
+  background: #18014896;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.quizWrapper h1{
+  font-size: 25px;
+  color: #010713;
+  font-family: Cambria, 'Times New Roman';
+  text-align: center;
+  padding-bottom: 18px;
+  font-weight: bold;
+
+
+}
+
+#questions{
+  font-size: 19px;
+  color: rgb(109, 239, 10);
+  text-align: left;
+  padding: 20px 30px 20px 20px;
+  
+}
+
+#btn{
+  background: white;
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  cursor: pointer;
+display: flex;
+margin: 10px;
+width: 90%;
+justify-content: center;
+}
+
+.answer-btns{
+  background-color: #18014896;
+  color: antiquewhite;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+#next-btn{
+  width: 150px;
+  padding: 10px;
+  background: antiquewhite;
+  color: #170148;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.correct{
+  background-color: green;
+
+}
+
+.incorrect
+{
+  background-color: red;
+}
+
